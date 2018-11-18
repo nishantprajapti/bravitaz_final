@@ -1,0 +1,27 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "description": "Front-end Developer Assignment Test",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [
+    "frontend",
+    "assignment",
+    "html",
+    "css",
+    "javascript",
+    "jquery",
+    "sass"
+  ],
+  "author": "Vishal Shukla",
+  "license": "ISC"
+}
